@@ -4,8 +4,9 @@
  * main - Monty code interpreter.
  * @argc: Number of arguments.
  * @argv: Monty file location.
- * 
- * Return: 0 on success.
+ *
+ *
+ *Return: 0 on success.
  */
 int main(int argc, char *argv[])
 {
