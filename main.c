@@ -1,7 +1,5 @@
 #include "monty.h"
 
-bus_t bus = {NULL, NULL, NULL, 0};
-
 /**
  * main - Monty code interpreter.
  * @argc: Number of arguments.
@@ -11,6 +9,7 @@ bus_t bus = {NULL, NULL, NULL, 0};
  */
 int main(int argc, char *argv[])
 {
+	bus_t bus = {NULL, NULL, NULL, 0}; // Moved inside main
 	char *content;
 	FILE *file;
 	size_t size = 0;
