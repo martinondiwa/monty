@@ -5,7 +5,7 @@
  * top element of the stack by the top element of the stack.
  * @head: Pointer to the stack head.
  * @counter: Line number.
- * 
+ *
  * Return: No return.
  */
 void f_mod(stack_t **head, unsigned int counter)
