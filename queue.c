@@ -4,7 +4,7 @@
  * f_queue - Sets the mode to queue.
  * @head: Pointer to the stack head.
  * @counter: Line number.
- * 
+ *
  * Return: No return.
  */
 void f_queue(stack_t **head, unsigned int counter)
@@ -18,7 +18,7 @@ void f_queue(stack_t **head, unsigned int counter)
  * addqueue - Adds a node to the tail of the stack.
  * @head: Pointer to the head of the stack.
  * @n: New value to be added.
- * 
+ *
  * Return: No return.
  */
 void addqueue(stack_t **head, int n)
@@ -29,7 +29,7 @@ void addqueue(stack_t **head, int n)
 	if (new_node == NULL)
 	{
 		printf("Error\n");
-		return; // Exit the function if allocation fails
+		return; /* Exit the function if allocation fails */
 	}
 
 	new_node->n = n;
