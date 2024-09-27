@@ -4,7 +4,7 @@
  * f_push - Adds a node to the stack.
  * @head: Pointer to the stack head.
  * @counter: Line number.
- * 
+ *
  * Return: No return.
  */
 void f_push(stack_t **head, unsigned int counter)
