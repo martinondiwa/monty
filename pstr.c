@@ -5,7 +5,7 @@
  * followed by a new line.
  * @head: Pointer to the stack head.
  * @counter: Line number.
- * 
+ *
  * Return: No return.
  */
 void f_pstr(stack_t **head, unsigned int counter)
