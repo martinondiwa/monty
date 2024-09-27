@@ -4,7 +4,7 @@
  * f_pall - Prints the stack.
  * @head: Pointer to the stack head.
  * @counter: Not used.
- * 
+ *
  * Return: No return.
  */
 void f_pall(stack_t **head, unsigned int counter)
