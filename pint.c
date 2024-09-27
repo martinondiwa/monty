@@ -4,7 +4,7 @@
  * f_pint - Prints the value at the top of the stack.
  * @head: Pointer to the stack head.
  * @counter: Line number.
- * 
+ *
  * Return: No return.
  */
 void f_pint(stack_t **head, unsigned int counter)
