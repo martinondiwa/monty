@@ -4,7 +4,7 @@
  * f_swap - Swaps the top two elements of the stack.
  * @head: Pointer to the stack head.
  * @counter: Line number.
- * 
+ *
  * Return: No return.
  */
 void f_swap(stack_t **head, unsigned int counter)
