@@ -4,7 +4,7 @@
  * f_pop - Removes the top element of the stack.
  * @head: Pointer to the stack head.
  * @counter: Line number.
- * 
+ *
  * Return: No return.
  */
 void f_pop(stack_t **head, unsigned int counter)
